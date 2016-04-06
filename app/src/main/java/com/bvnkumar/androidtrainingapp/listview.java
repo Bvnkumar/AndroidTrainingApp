@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 public class listview extends AppCompatActivity {
 public  static ListView list;
-    public static String[] countries={"India","Usa","Uk"};
+    public static String[] countries={"India","Usa","Uk","NewZeland","Australia","Japan","China"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

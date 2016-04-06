@@ -43,7 +43,7 @@ public void listView(View view)
     });
 }
  public void m1(View view) {
-     Intent intent=new Intent(MainActivity.this,Recycle.class);
+     Intent intent=new Intent(MainActivity.this,Recycle .class);
      startActivity(intent);
  }
     @Override
