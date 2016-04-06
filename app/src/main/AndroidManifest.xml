@@ -18,6 +18,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".listview"
+            android:label="@string/title_activity_listview"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Recycler"
+            android:label="@string/title_activity_recycler"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hello"
+            android:label="@string/title_activity_hello"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Recycle"
+            android:label="@string/title_activity_recycle"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
