@@ -1,5 +1,6 @@
 package com.bvnkumar.androidtrainingapp;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -21,6 +22,10 @@ public static Button btn;
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        android.support.v7.app.ActionBar ab = getSupportActionBar();
+        ab.setIcon(R.mipmap.mob1);
+        ab.setDisplayUseLogoEnabled(true);
+        ab.setDisplayShowHomeEnabled(true);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,6 +35,9 @@ public static Button btn;
 
             }
         });
+
+
+
     }
 public void listView(View view)
 {

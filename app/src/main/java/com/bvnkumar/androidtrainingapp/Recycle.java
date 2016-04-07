@@ -15,7 +15,7 @@ private RecyclerView.Adapter adapter;
     private RecyclerView.LayoutManager layoutManager;
     public String[] mobile_brand={"samsung","Apple","Lenovo","Nokia","samsung","Apple","Lenovo","Nokia"};
     public String[] mobile_name={"hero","i6","A7000","200","hero","i6","A7000","200"};
-    public final int[] android_image_urls = {R.mipmap.mob1,R.mipmap.mob2,R.mipmap.mob1,R.mipmap.mob2,R.mipmap.mob1,R.mipmap.mob1,R.mipmap.mob2,R.mipmap.mob1};
+    public final int[] android_image_urls = {R.mipmap.mob1,R.mipmap.apple,R.mipmap.mob1,R.mipmap.mob2,R.mipmap.mob1,R.mipmap.mob1,R.mipmap.mob2,R.mipmap.mob1};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +38,7 @@ private RecyclerView.Adapter adapter;
         recyclerView.setHasFixedSize(true);
         recyclerView.setAdapter(adapter);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
     }
 

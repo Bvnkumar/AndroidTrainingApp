@@ -5,6 +5,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.Adapter;
 import android.widget.AdapterView;
@@ -47,6 +48,7 @@ public  static ListView list;
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String value=(String)list.getItemAtPosition(position);
+                Log.d("value is saved","success");
                 Toast.makeText(listview.this,"value "+value,Toast.LENGTH_SHORT).show();
             }
         });
